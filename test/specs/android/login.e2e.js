@@ -51,4 +51,7 @@ describe("My Login Demo", () => {
     const productsUISelector = await $(`android=${selector}`);
     await expect(productsUISelector).toHaveText("Products");
   });
+  it("Should login with valid credentials", async () => {
+    await $('//*[@content-desc="Username input field"]').setValue("bob@example.com")
+  })
 });

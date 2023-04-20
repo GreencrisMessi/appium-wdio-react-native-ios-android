@@ -17,5 +17,8 @@
     "scripts": {
         "wdioAndroid": "wdio run config/android-wdio.conf.js",
         "wdioIos": "wdio run config/ios-wdio.conf.js"
+    },
+    "dependencies": {
+        "@types/jest": "^29.5.1"
     }
 }
