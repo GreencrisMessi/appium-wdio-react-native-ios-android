@@ -297,3 +297,7 @@ if you want to run this project:
 
 ### Notes
 * To manage node versions you can install "n" using the command "npm install -g n". Then you can install the version you may need, for instance "n 16.15.1"(LTS version where this project is working fine.)
+
+
+### Document to inspector element
+https://webdriver.io/docs/api/expect-webdriverio/#tohaveattribute
