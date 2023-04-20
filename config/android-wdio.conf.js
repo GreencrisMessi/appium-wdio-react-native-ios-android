@@ -10,7 +10,9 @@ exports.config = {
     // ====================
     // WebdriverIO supports running e2e tests as well as unit and component tests.
     runner: 'local',
-    
+
+    port: 4723,
+
     //
     // ==================
     // Specify Test Files
@@ -56,10 +58,11 @@ exports.config = {
     // Sauce Labs platform configurator - a great tool to configure your capabilities:
     // https://saucelabs.com/platform/platform-configurator
     //
+    // Usw adb devices command to find appium:deviceName
     capabilities: [{
         "platformName": 'Android',
-        "appium:deviceName": 'Pixel 4 API 30(R)',
-        "appium:platformVersion": "11.0",
+        "appium:deviceName": '1A04293110DA0ZVA',
+        "appium:platformVersion": "13",
         "appium:automationName": "UIAutomator2",
         "appium:app": androidAppPath,
         // "appium:appWaitActivity": "com.swaglabsmobileapp.MainActivity"
