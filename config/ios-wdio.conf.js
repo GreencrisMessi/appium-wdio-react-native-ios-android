@@ -58,8 +58,8 @@ exports.config = {
     //
     capabilities: [{
       "platformName": "IOS",
-      "appium:deviceName": "iPhone 13",
-      "appium:platformVersion": "16.2",
+      "appium:deviceName": "iPhone 14 Plus",
+      "appium:platformVersion": "16.4",
       "appium:automationName": "XCUItest",
       "appium:app": iosAppPath,
     }],
