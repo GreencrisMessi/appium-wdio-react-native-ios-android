@@ -62,7 +62,7 @@ exports.config = {
     capabilities: [{
         "platformName": 'Android',
         "appium:deviceName": '1A04293110DA0ZVA',
-        "appium:platformVersion": "13",
+        "appium:platformVersion": "11",
         "appium:automationName": "UIAutomator2",
         "appium:app": androidAppPath,
         // "appium:appWaitActivity": "com.swaglabsmobileapp.MainActivity"

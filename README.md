@@ -301,3 +301,7 @@ if you want to run this project:
 
 ### Document to inspector element
 https://webdriver.io/docs/api/expect-webdriverio/#tohaveattribute
+
+### For Appium Inspector
+## please install appium global, with driver and use command to run it:
+appium -p 4724

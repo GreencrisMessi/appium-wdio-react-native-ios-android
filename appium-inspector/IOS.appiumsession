@@ -1,0 +1,55 @@
+{
+  "version": "1.0",
+  "caps": [
+    {
+      "type": "text",
+      "name": "platformName",
+      "value": "IOS"
+    },
+    {
+      "type": "text",
+      "name": "appium:platformVersion",
+      "value": "16.4"
+    },
+    {
+      "type": "text",
+      "name": "appium:deviceName",
+      "value": "iPhone 14"
+    },
+    {
+      "type": "text",
+      "name": "appium:app",
+      "value": "/Users/abcsoftwarecompany/Code/appium-demo/app/ios/MyRNDemoApp.app"
+    },
+    {
+      "type": "text",
+      "name": "appium:automationName",
+      "value": "XCUItest"
+    }
+  ],
+  "server": {
+    "local": {},
+    "remote": {
+      "port": "4724",
+      "hostname": "0.0.0.0",
+      "path": "/"
+    },
+    "sauce": {
+      "dataCenter": "us-west-1"
+    },
+    "headspin": {},
+    "browserstack": {},
+    "lambdatest": {},
+    "advanced": {},
+    "bitbar": {},
+    "kobiton": {},
+    "perfecto": {},
+    "pcloudy": {},
+    "testingbot": {},
+    "experitest": {},
+    "roboticmobi": {},
+    "remotetestkit": {}
+  },
+  "serverType": "remote",
+  "visibleProviders": []
+}

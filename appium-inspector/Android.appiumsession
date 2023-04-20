@@ -1,0 +1,55 @@
+{
+  "version": "1.0",
+  "caps": [
+    {
+      "type": "text",
+      "name": "platformName",
+      "value": "Android"
+    },
+    {
+      "type": "text",
+      "name": "appium:platformVersion",
+      "value": "11"
+    },
+    {
+      "type": "text",
+      "name": "appium:deviceName",
+      "value": "1A04293110DA0ZVA"
+    },
+    {
+      "type": "text",
+      "name": "appium:app",
+      "value": "/Users/abcsoftwarecompany/Code/appium-demo/app/android/Android-MyDemoAppRN.1.3.0.build-244.apk"
+    },
+    {
+      "type": "text",
+      "name": "appium:automationName",
+      "value": "UIAutomator2"
+    }
+  ],
+  "server": {
+    "local": {},
+    "remote": {
+      "port": "4724",
+      "hostname": "0.0.0.0",
+      "path": "/"
+    },
+    "sauce": {
+      "dataCenter": "us-west-1"
+    },
+    "headspin": {},
+    "browserstack": {},
+    "lambdatest": {},
+    "advanced": {},
+    "bitbar": {},
+    "kobiton": {},
+    "perfecto": {},
+    "pcloudy": {},
+    "testingbot": {},
+    "experitest": {},
+    "roboticmobi": {},
+    "remotetestkit": {}
+  },
+  "serverType": "remote",
+  "visibleProviders": []
+}
