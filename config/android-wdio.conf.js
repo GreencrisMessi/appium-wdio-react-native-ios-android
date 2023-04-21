@@ -1,7 +1,7 @@
 const projectPath = require("path");
 const androidAppPath = projectPath.join(
   process.cwd(),
-  "app/android/Android-MyDemoAppRN.1.3.0.build-244.apk"
+  "app/android/app-release.apk"
 );
 exports.config = {
     //
@@ -61,7 +61,7 @@ exports.config = {
     // Usw adb devices command to find appium:deviceName
     capabilities: [{
         "platformName": 'Android',
-        "appium:deviceName": '1A04293110DA0ZVA',
+        "appium:deviceName": 'R58R20XY4RH', //1A04293110DA0ZVA  // R58R20XY4RH
         "appium:platformVersion": "11",
         "appium:automationName": "UIAutomator2",
         "appium:app": androidAppPath,

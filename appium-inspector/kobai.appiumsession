@@ -1,0 +1,55 @@
+{
+  "version": "1.0",
+  "caps": [
+    {
+      "type": "text",
+      "name": "platformName",
+      "value": "Android"
+    },
+    {
+      "type": "text",
+      "name": "appium:platformVersion",
+      "value": "11"
+    },
+    {
+      "type": "text",
+      "name": "appium:deviceName",
+      "value": "R58R20XY4RH"
+    },
+    {
+      "type": "text",
+      "name": "appium:app",
+      "value": "/Users/greencris/Documents/GitHub/appium-wdio-react-native-ios-android/app/android/app-release.apk"
+    },
+    {
+      "type": "text",
+      "name": "appium:automationName",
+      "value": "UIAutomator2"
+    }
+  ],
+  "server": {
+    "local": {},
+    "remote": {
+      "port": "4724",
+      "hostname": "0.0.0.0",
+      "path": "/wd/hub"
+    },
+    "sauce": {
+      "dataCenter": "us-west-1"
+    },
+    "headspin": {},
+    "browserstack": {},
+    "lambdatest": {},
+    "advanced": {},
+    "bitbar": {},
+    "kobiton": {},
+    "perfecto": {},
+    "pcloudy": {},
+    "testingbot": {},
+    "experitest": {},
+    "roboticmobi": {},
+    "remotetestkit": {}
+  },
+  "serverType": "remote",
+  "visibleProviders": []
+}

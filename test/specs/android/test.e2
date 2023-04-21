@@ -1,0 +1,30 @@
+describe('Simple test pack', () => {
+  it('Simple', async () => {
+
+    // Click bread cumb
+    await $('//android.view.ViewGroup[@content-desc="open menu"]').click()
+    // Click Log in
+    await $('(//android.view.ViewGroup[@content-desc="store item"])[3]/android.view.ViewGroup[1]/android.widget.ImageView').click()
+
+    await $('//*[@content-desc="Username input field"]').setValue("bob@example.com");
+    //Access the username input element by its class + content-desc
+    await $(
+      '//android.widget.EditText[@content-desc="Password input field"]'
+    ).setValue("10203040");
+    //Access the login button by the default xpath
+    // await $(
+    //   '//android.view.ViewGroup[@content-desc="Login button"]/android.widget.TextView'
+    // ).click();
+
+  //Login success -> go
+    await $('//android.view.ViewGroup[@content-desc="Login button"]').click();
+
+
+// Test home page
+const elem = await $('//android.view.ViewGroup[@content-desc="container header"]/android.widget.TextView');
+await expect(elem).toHaveAttribute('text','Products2');
+
+    await driver.pause(7000);
+
+
+})})
