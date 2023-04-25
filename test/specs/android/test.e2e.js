@@ -1,24 +1,23 @@
-describe('Simple test pack', () => {
-  it('Simple', async () => {
+describe("Simple test pack", () => {
+  it.only("Simple", async () => {
+    await $(
+      '//android.view.ViewGroup[@content-desc="open menu"]/android.widget.ImageView'
+    ).click();
+    await $(
+      '(//android.view.ViewGroup[@content-desc="store item"])[1]/android.view.ViewGroup[1]/android.widget.ImageView'
+    ).click();
+    await $(
+      "/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.widget.Button[1]"
+    ).click();
+    await $(
+      '//android.view.ViewGroup[@content-desc="geo location screen"]/android.widget.ScrollView/android.view.ViewGroup'
+    ).click();
 
-    // // Click bread cumb
-    // await $('//android.view.ViewGroup[@content-desc="open menu"]').click()
-    // // Click Log in
-    // await $('(//android.view.ViewGroup[@content-desc="store item"])[3]/android.view.ViewGroup[1]/android.widget.ImageView').click()
-
-    // await $('//*[@content-desc="Username input field"]').setValue("wrongUser");
-    // //Access the username input element by its class + content-desc
-    // await $(
-    //   '//android.widget.EditText[@content-desc="Password input field"]'
-    // ).setValue("wrongPassword");
-    // //Access the login button by the default xpath
-    // await $(
-    //   '//android.view.ViewGroup[@content-desc="Login button"]/android.widget.TextView'
-    // ).click();
-
-    // Scroll In to element copy right
-    const destinationElm = await $('(//XCUIElementTypeOther[@name="© 2023 Sauce Labs. All Rights Reserved. Terms of Service | Privacy Policy."])[2]');
-    await destinationElm.scrollIntoView();
+    // await driver.touchScroll([
+    //   { action: 'press', x: 100, y: 500 },
+    //   { action: 'moveTo', x: 100, y: 300 },
+    //   'release'
+    // ]);
     await driver.pause(7000);
-
-})})
+  });
+});

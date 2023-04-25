@@ -1,7 +1,9 @@
 const projectPath = require("path");
 const androidAppPath = projectPath.join(
   process.cwd(),
-  "app/android/app-release.apk"
+  "app/android/Android-MyDemoAppRN.1.3.0.build-244.apk"
+  
+//   "app/android/app-release.apk"
 );
 exports.config = {
     //
